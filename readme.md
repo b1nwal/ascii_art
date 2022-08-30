@@ -12,7 +12,7 @@ The program scans each pixel and averages the RGB value for a total brightness s
 V2 will include:  
 * User friendly CLI input,
 * Output to text file,
-* Automatic deletion of the image file
+* Automatic deletion of the image file  
 and will most likely be the final project build.
 
 ## Contributors
