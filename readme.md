@@ -8,9 +8,9 @@ ASCII art is a graphic design technique that uses computers for presentation and
 
 ## How it works
 
-Now user friendly! Run the ascii_art.exe, enter a url with a png of reasonably small size (for scaling), and see result in result/result.txt.
-The program scans each pixel and averages the RGB value for a total brightness score (consider that 255,255,255 is white, the brightest color and thus as you approach these values you must be getting brighter,) and then outputs a character to represent that pixel. The higher brightness the pixel is the more "dense" the character will be (e.g. "@" is more dense than "-").
-
+Run ascii_art.exe, and provide a URL to a reasonably small png file (128x128 or smaller is ideal). The result will appear in result/result.txt  
+The program takes each individual pixel and averages the RGB values for a total brightness score (the closer to white (255,255,255) a color is, the brighter it will be). Higher brightness pixels get higher "density" characters (higher density characters cover more of their allotted space, e.x. "@" is more dense than "/")
+<br>
 ## V3
 
 V3 may include:  
