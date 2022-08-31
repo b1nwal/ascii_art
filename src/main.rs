@@ -12,7 +12,7 @@ fn main() {
     write_img(&url);
     let img = image::open("image.png").expect("Error Opening File.");
     create_art(img);
-    fs::remove_file("image.png");
+    fs::remove_file("image.png").unwrap();
 }
 
 fn create_art(img: DynamicImage) {
